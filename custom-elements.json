@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "PokemonEvolutionDm",
+          "declaration": {
+            "name": "PokemonEvolutionDm",
+            "module": "./src/PokemonEvolutionDm.js"
+          }
+        }
+      ],
+      "entrypoint": "index.js",
+      "defaultEntrypoint": true
+    },
+    {
+      "kind": "javascript-module",
+      "path": "pokemon-evolution-dm.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "pokemon-evolution-dm",
+          "declaration": {
+            "name": "PokemonEvolutionDm",
+            "module": "/src/PokemonEvolutionDm.js"
+          }
+        }
+      ],
+      "entrypoint": "pokemon-evolution-dm.js",
+      "defaultEntrypoint": false
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/PokemonEvolutionDm.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "![LitElement component](https://img.shields.io/badge/litElement-component-blue.svg)\n\nThis component ...\n\nExample:\n\n```html\n  <pokemon-evolution-dm></pokemon-evolution-dm>\n```",
+          "name": "PokemonEvolutionDm",
+          "members": [
+            {
+              "kind": "field",
+              "name": "name",
+              "privacy": "public",
+              "type": {
+                "text": "string"
+              },
+              "description": "Description for property",
+              "default": "\"Cells\"",
+              "attribute": "name"
+            }
+          ],
+          "attributes": [
+            {
+              "name": "name",
+              "type": {
+                "text": "string"
+              },
+              "description": "Description for property",
+              "default": "\"Cells\"",
+              "fieldName": "name"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit-element"
+          },
+          "tagName": "pokemon-evolution-dm",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "PokemonEvolutionDm",
+          "declaration": {
+            "name": "PokemonEvolutionDm",
+            "module": "src/PokemonEvolutionDm.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/pokemon-evolution-dm.css.js",
+      "declarations": [
+        {
+          "kind": "js",
+          "name": "default",
+          "cssCustomProperties": []
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "module": "src/pokemon-evolution-dm.css.js"
+          }
+        }
+      ]
+    }
+  ],
+  "packageName": "@pokedex/pokemon-evolution-dm"
+}
